@@ -1,0 +1,71 @@
+.frustration {
+  position: relative;
+  background: var(--bg-color);
+  z-index: -2;
+
+  &__container {
+    display: flex;
+    padding-top: 96px;
+    margin-bottom: 96px;
+  }
+  &__description {
+    width: 50%;
+
+    &__title {
+      margin-bottom: 22px;
+
+      &::after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 32%;
+        height: 6px;
+        background-color: var(--utility-color);
+        border-radius: 2px;
+        bottom: 11px;
+        right: 0;
+        z-index: -1;
+      }
+    }
+
+    &__text {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 176%;
+      letter-spacing: 0.02em;
+      color: var(--text-color);
+      margin-bottom: 26px;
+    }
+
+    &__item {
+      display: flex;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 176%;
+      letter-spacing: 0.02em;
+      color: var(--text-color);
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      &__icon {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &__graph {
+    position: relative;
+    width: 50%;
+
+    &__img {
+      &__second {
+        position: absolute;
+        top: 250px;
+        left: 220px;
+        z-index: -1;
+      }
+    }
+  }
+}
