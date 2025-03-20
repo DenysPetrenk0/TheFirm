@@ -13,15 +13,15 @@
 <body>
     <header class="header">
         <div class="container">
-            <nav>
+            <nav class="nav">
                 <div class="nav__logo">
                     <a href="#" class="nav__link">
-                        <img class="nav__logo__img" src="./assets/img/header/logo.png" alt="logo">
+                        <img class="nav__logo__img" src="assets/img/logo.png" alt="logo">
                     </a>
                 </div>
                 <ul class="nav__menu">
                     <li class="nav__menu__item">
-                        <a href="" class="nav__menu__link">Home</a>
+                        <a href="" class="nav__menu__link current">Home</a>
                     </li>
                     <li class="nav__menu__item">
                         <a href="" class="nav__menu__link">Solutions</a>
@@ -39,51 +39,116 @@
                         <a href="" class="nav__menu__link">Contact Us</a>
                     </li>
                 </ul>
-                <button class="nav__menu__button" type="button">Get in Touch</button>
+                <button class="nav__menu__button button" type="button">Get in Touch</button>
             </nav>
         </div>
     </header>
     <main>
         <section class="hero">
             <div class="container">
-                <h1 class="hero__title">Get Bussiness Solutions with TheFirm.</h1>
-                <h2 class="hero__sub__title">Lorem Ipsum is simply dummy text of the printing
+                <h1 class="hero__title">Get Bussiness<br> Solutions with <span>TheFirm.</span></h1>
+                <h2 class="hero__text">Lorem Ipsum is simply dummy text of the printing
                     and typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy.</h2>
-                <button class="hero__button" type="button">Get in Touch</button>
+                <button class="hero__button button" type="button">Get in Touch</button>
+                <img class="hero__icon" src="./assets/icon/ellipse.svg" alt="icon">
             </div>
         </section>
         <section class="partner">
             <div class="container">
-                <h2 class="partner__title">Our Partner</h2>
+                <div class="partner__title__container">
+                    <h2 class="partner__title section__title">Our Partner</h2>
+                </div>
                 <div class="partner__slider">
                     <ul class="partner__slides">
-                        <li class="partner__slide">microsoft</li>
-                        <li class="partner__slide">google</li>
-                        <li class="partner__slide">firefox</li>
-                        <li class="partner__slide">safari</li>
+                        <li class="partner__slide">
+                            <img
+                                class="partner__slide__img"
+                                src="./assets/img/partner/microsoft.png"
+                                alt="microsoft logo"
+                            >
+                        </li>
+                        <li class="partner__slide">
+                            <img
+                                class="partner__slide__img"
+                                src="./assets/img/partner/google.png"
+                                alt="google logo"
+                            >
+                        </li>
+                        <li class="partner__slide">
+                            <img
+                                class="partner__slide__img"
+                                src="./assets/img/partner/firefox.png"
+                                alt="firefox logo"
+                            >
+                        </li>
+                        <li class="partner__slide">
+                            <img
+                                class="partner__slide__img"
+                                src="./assets/img/partner/safari.png"
+                                alt="safari logo"
+                            >
+                        </li>
                     </ul>
-                    <div class="slider__button">
+                    <div class="partner__slider__buttons">
+                        <button class="partner__slider__button" type="button">
+                            <img class="partner__slider__button__img" src="./assets/icon/vector-left.svg" alt="vector left">
+                        </button>
+                        <button class="partner__slider__button" type="button">
+                            <img class="partner__slider__button__img" src="./assets/icon/vector-right.svg" alt="vector right">
+                        </button>
                     </div>
                 </div>
             </div>
         </section>
         <section class="frustration">
-            <div class="container">
+            <div class="container frustration__container">
                 <div class="frustration__description">
-                    <h2 class="frustration__description__title">Frustration of Clients</h2>
+                    <div class="frustration__description__title__container">
+                        <h2 class="frustration__description__title section__title">Frustration of Clients</h2>
+                    </div>
                     <p class="frustration__description__text">Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     </p>
                     <ul class="frustration__description__list">
-                        <li class="frustration__description__item">Loren rasion gravida auem is bibenua tase</li>
-                        <li class="frustration__description__item">Lorem Ipsum is simply dummy text of the.</li>
-                        <li class="frustration__description__item">Printing and typesetting industry. Lorem Ipsum</li>
-                        <li class="frustration__description__item">When an unknown printer took a galley of type and scrambled it</li>
+                        <li class="frustration__description__item">
+                            <img
+                                 class="frustration__description__item__icon"
+                                 src="./assets/icon/question-mark.svg"
+                                 alt="question mark"
+                            >
+                            Loren rasion gravida auem is bibenua tase
+                        </li>
+                        <li class="frustration__description__item">
+                            <img
+                                 class="frustration__description__item__icon"
+                                 src="./assets/icon/question-mark.svg"
+                                 alt="question mark"
+                            >
+                            Lorem Ipsum is simply dummy text of the.
+                        </li>
+                        <li class="frustration__description__item">
+                            <img
+                                 class="frustration__description__item__icon"
+                                 src="./assets/icon/question-mark.svg"
+                                 alt="question mark"
+                            >
+                            Printing and typesetting industry. Lorem Ipsum
+                        </li>
+                        <li class="frustration__description__item">
+                            <img
+                                 class="frustration__description__item__icon"
+                                 src="./assets/icon/question-mark.svg"
+                                 alt="question mark"
+                            >
+                            When an unknown printer took a galley of type and scrambled it
+                        </li>
                     </ul>
                 </div>
                 <div class="frustration__graph">
-                    <img src="" alt="">
+                    <img src="./assets/img/frustration/graph-prime.png" alt="graph">
+                    <img class="frustration__graph__img__second" src="./assets/img/frustration/graph-second.png"
+                         alt="graph">
                 </div>
             </div>
         </section>
@@ -314,7 +379,7 @@
             <nav>
                 <div class="footer__nav__logo">
                     <a href="#" class="footer__nav__link">
-                        <img class="footer__nav__logo__img" src="./assets/img/header/logo.png" alt="logo">
+                        <img class="footer__nav__logo__img" src="assets/img/logo.png" alt="logo">
                     </a>
                 </div>
                 <ul class="footer__nav__menu">
