@@ -2,6 +2,7 @@
 
 @use "./components/_button";
 @use "./components/_title";
+@use "./components/_navigation";
 
 @use "./base/_common";
 @use "./base/_container";
@@ -16,3 +17,4 @@
 @use "./layout/_blogs";
 @use "./layout/_testimonials";
 @use "./layout/_get-in-touch";
+@use "./layout/_footer";
