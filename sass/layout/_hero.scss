@@ -58,4 +58,23 @@
     margin-bottom: 32px;
     width: 437px;
   }
+
+  &.cases {
+    background: var(--bg-second-color);
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 852px;
+      height: 650px;
+      background: url("/assets/img/cases/bg.png") no-repeat;
+      z-index: -1;
+    }
+
+    &::before {
+      display: none;
+    }
+  }
 }
