@@ -1,0 +1,54 @@
+.nav {
+  display: flex;
+
+  &__menu {
+    display: flex;
+    align-items: center;
+
+    &__item {
+      position: relative;
+      margin-right: 47px;
+
+      &:last-child {
+        margin-right: 50px;
+      }
+    }
+
+    &__link {
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: 0.05em;
+      color: var(--text-color);
+      white-space: nowrap;
+
+      &:hover,
+      &:focus {
+        &::after {
+          position: absolute;
+          display: block;
+          content: "";
+          width: 85%;
+          height: 4px;
+          background-color: var(--utility-color);
+          border-radius: 2px;
+          bottom: 4px;
+          z-index: -1;
+        }
+      }
+    }
+
+    .current {
+      &::after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 85%;
+        height: 4px;
+        background-color: var(--utility-color);
+        border-radius: 2px;
+        bottom: 4px;
+        z-index: -1;
+      }
+    }
+  }
+}
