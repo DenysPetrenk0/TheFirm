@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cases</title>
+    <title>Solution Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -44,92 +44,91 @@
         </div>
     </header>
     <main>
-        <section class="hero cases">
+        <section id="solutions" class="solution solution__page">
             <div class="container">
-                <h1 class="hero__title">Our Research & <br> Case Studies</h1>
-                <h2 class="hero__text">Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy.</h2>
-                <button class="hero__button button" type="button">Get in Touch</button>
+                <div class="solution__img__container">
+                    <ul class="solution__list">
+                        <li class="solution__item">
+                            <img src="./assets/icon/Coaching.svg" alt="Coaching icon" class="solution__item__icon">
+                            <h2 class="solution__item__title">Coaching</h2>
+                            <p class="solution__item__text">Loren rasion gravida auem is bibenua tase</p>
+                        </li>
+                        <li class="solution__item partner">
+                            <img src="./assets/icon/Partner.svg" alt="Partner icon" class="solution__item__icon">
+                            <h2 class="solution__item__title">Digital Partner</h2>
+                            <p class="solution__item__text">Loren rasion gravida auem
+                                is bibenua tase</p>
+                        </li>
+                        <li class="solution__item seo">
+                            <img src="./assets/icon/SEO.svg" alt="SEO icon" class="solution__item__icon">
+                            <h2 class="solution__item__title">SEO</h2>
+                            <p class="solution__item__text">Loren rasion gravida auem
+                                is bibenua tase</p>
+                        </li>
+                    </ul>
+                    <img src="./assets/img/solution-bg/ellipse1.png" alt="ellipse1" class="solution__img">
+                    <img src="./assets/img/solution-bg/ellipse2.png" alt="ellipse2" class="solution__img">
+                    <img src="./assets/img/solution-bg/ellipse3.png" alt="ellipse3" class="solution__img">
+                    <img src="./assets/img/solution-bg/text.png" alt="text" class="solution__img">
+                </div>
+                <div class="solution__description">
+                    <div class="solution__description__title__container">
+                        <h2 class="solution__description__title section__title">Perfect Solution for Your Bussiness </h2>
+                    </div>
+                    <p class="solution__description__text">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                        book. It has survived not only five centuries,
+                    </p>
+                    <a href="./solution_page.html" class="solution__description__button button">Read More</a>
+                </div>
             </div>
         </section>
-        <section class="our_cases">
+        <section class="blogs solution__page">
             <div class="container">
-                <div class="our_cases__title__container">
-                  <h2 class="our_cases__title section__title">Our Cases</h2>
+                <div class="blogs__slider">
+                    <ul class="blogs__slides">
+                        <li class="blogs__slide">
+                            <img class="blogs__slide__img" src="./assets/img/blogs/blog1.png" alt="blog1">
+                            <div class="blogs__slide__content">
+                                <p class="blogs__slide__content__title">Coaching</p>
+                                <p class="blogs__slide__content__text">Lorem Ipsum is simply  text of the printing and
+                                    type setting industry. make a type specimen.
+                                </p>
+                            </div>
+                            <button class="blogs__slide__button" type="button">Read More</button>
+                        </li>
+                        <li class="blogs__slide">
+                            <img class="blogs__slide__img" src="./assets/img/blogs/blog2.png" alt="blog2">
+                            <div class="blogs__slide__content">
+                                <p class="blogs__slide__content__title">Digital Partner</p>
+                                <p class="blogs__slide__content__text">Lorem Ipsum is simply  text of the printing
+                                    and type setting industry. make a type specimen.
+                                </p>
+                            </div>
+                            <button class="blogs__slide__button" type="button">Read More</button>
+                        </li>
+                        <li class="blogs__slide">
+                            <img class="blogs__slide__img" src="./assets/img/blogs/blog3.png" alt="blog3">
+                            <div class="blogs__slide__content">
+                                <p class="blogs__slide__content__title">SEO</p>
+                                <p class="blogs__slide__content__text">Lorem Ipsum is simply  text of the printing
+                                    and type setting industry. make a type specimen.
+                                </p>
+                            </div>
+                            <button class="blogs__slide__button" type="button">Read More</button>
+                        </li>
+                    </ul>
                 </div>
-                <div class="our_cases__button-type__container">
-                    <button class="our_cases__button-type" type="button">Show All</button>
-                    <button class="our_cases__button-type" type="button">Coaching</button>
-                    <button class="our_cases__button-type" type="button">Digital Partners</button>
-                    <button class="our_cases__button-type" type="button">SEO</button>
-                    <label class="our_cases__field">
-                        <input class="our_cases__input_search" placeholder="search">
-                        <svg class="our_cases__input_search__icon">
-                            <use href="./assets/icon/search.svg#search"></use>
-                        </svg>
-                    </label>
-                </div>
-                <ul class="our_cases__list">
-                    <li class="our_cases__item">
-                        <img src="./assets/img/our_cases/case1.png" class="our_cases__item__img" alt="case">
-                        <h3 class="our_cases__item__title">Lorem Ipsum is</h3>
-                        <p class="our_cases__item__text">Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. </p>
-                        <a href="cases_details.html" class="our_cases__item__button">Read More</a>
-                    </li>
-                    <li class="our_cases__item">
-                        <img src="./assets/img/our_cases/case2.png" class="our_cases__item__img" alt="case">
-                        <h3 class="our_cases__item__title">Lorem Ipsum is</h3>
-                        <p class="our_cases__item__text">Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. </p>
-                        <a href="cases_details.html" class="our_cases__item__button">Read More</a>
-                    </li>
-                    <li class="our_cases__item">
-                        <img src="./assets/img/our_cases/case3.png" class="our_cases__item__img" alt="case">
-                        <h3 class="our_cases__item__title">Lorem Ipsum is</h3>
-                        <p class="our_cases__item__text">Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. </p>
-                        <a href="cases_details.html" class="our_cases__item__button">Read More</a>
-                    </li>
-                    <li class="our_cases__item">
-                        <img src="./assets/img/our_cases/case4.png" class="our_cases__item__img" alt="case">
-                        <h3 class="our_cases__item__title">Lorem Ipsum is</h3>
-                        <p class="our_cases__item__text">Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. </p>
-                        <a href="cases_details.html" class="our_cases__item__button">Read More</a>
-                    </li>
-                    <li class="our_cases__item">
-                        <img src="./assets/img/our_cases/case5.png" class="our_cases__item__img" alt="case">
-                        <h3 class="our_cases__item__title">Lorem Ipsum is</h3>
-                        <p class="our_cases__item__text">Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. </p>
-                        <a href="cases_details.html" class="our_cases__item__button">Read More</a>
-                    </li>
-                    <li class="our_cases__item">
-                        <img src="./assets/img/our_cases/case6.png" class="our_cases__item__img" alt="case">
-                        <h3 class="our_cases__item__title">Lorem Ipsum is</h3>
-                        <p class="our_cases__item__text">Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. </p>
-                        <a href="cases_details.html" class="our_cases__item__button">Read More</a>
-                    </li>
-                    <li class="our_cases__item">
-                        <img src="./assets/img/our_cases/case7.png" class="our_cases__item__img" alt="case">
-                        <h3 class="our_cases__item__title">Lorem Ipsum is</h3>
-                        <p class="our_cases__item__text">Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. </p>
-                        <a href="cases_details.html" class="our_cases__item__button">Read More</a>
-                    </li>
-                    <li class="our_cases__item">
-                        <img src="./assets/img/our_cases/case8.png" class="our_cases__item__img" alt="case">
-                        <h3 class="our_cases__item__title">Lorem Ipsum is</h3>
-                        <p class="our_cases__item__text">Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. </p>
-                        <a href="cases_details.html" class="our_cases__item__button">Read More</a>
-                    </li>
-                    <li class="our_cases__item">
-                        <img src="./assets/img/our_cases/case9.png" class="our_cases__item__img" alt="case">
-                        <h3 class="our_cases__item__title">Lorem Ipsum is</h3>
-                        <p class="our_cases__item__text">Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. </p>
-                        <a href="cases_details.html" class="our_cases__item__button">Read More</a>
-                    </li>
-                </ul>
-                <button class="our_cases__button button" type="button">Read More</button>
+                <button class="blogs__button button" type="button">View More</button>
             </div>
         </section>
-        <section class="testimonials cases">
+        <section class="solution__page__content">
+            <div class="container">
+
+            </div>
+        </section>
+        <section class="testimonials">
             <div class="container">
                 <div class="testimonials__title__container">
                     <h2 class="testimonials__title section__title">Our Testimonials</h2>
@@ -154,8 +153,8 @@
                     <div class="testimonials__slide__pagination">
                         <img src="./assets/img/testimonials/pagination.png" alt="pagination">
                     </div>
-                  </div>
-              </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
