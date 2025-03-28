@@ -39,6 +39,12 @@
     justify-content: center;
   }
 
+  &.solution__page {
+    .blogs__slide__content__text {
+      padding-bottom: 30px;
+    }
+  }
+
   &__slide {
     border: 1px solid rgba(250, 202, 16, 0.4);
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.14);
